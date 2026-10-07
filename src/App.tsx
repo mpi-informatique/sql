@@ -81,9 +81,9 @@ export default function App(props) {
         Il est conforme au programme de CPGE (filières MP2I, MP, PC, PSI, PT, BCPST).
         <br />
         <b>Attention : dans vos réponses, les colonnes doivent apparaître dans le même ordre que dans la question.</b><br />
-        <a href="https://github.com/sql-exercices/sql-exercices.github.io/issues">Signaler un problème</a><br />
+        <a href="https://github.com/mpi-informatique/sql/issues">Signaler un problème</a><br />
         <a href="https://github.com/fortierq/datasets">Bases de données utilisées</a><br />
-        <a href="https://github.com/sql-exercices/sql-exercices.github.io/tree/main/src/exos">Contribuer en ajoutant un exercice ou des questions (par pull request)</a><br />
+        <a href="https://github.com/mpi-informatique/sql/tree/main/src/exos">Contribuer en ajoutant un exercice ou des questions (par pull request)</a><br />
         <a href="https://fortierq.github.io/teaching">Mes autres cours</a><br />
         <a href="https://mpi-lamartin.github.io/mpi-info">Cours d'informatique en MPI</a>
     </div>)
@@ -107,7 +107,7 @@ export default function App(props) {
                 >
                     <Toolbar>
                         <GithubCorner
-                            href="https://github.com/sql-exercices/sql-exercices.github.io"
+                            href="https://github.com/mpi-informatique/sql"
                             direction="right"
                             size="60"
                         />

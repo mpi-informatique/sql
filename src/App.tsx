@@ -15,6 +15,7 @@ import ListItemText from "@mui/material/ListItemText";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import IconButton from "@mui/material/IconButton";
+import Button from "@mui/material/Button";
 import MenuIcon from "@mui/icons-material/Menu";
 import GithubCorner from "react-github-corner";
 import { Grid } from "@mui/material";
@@ -130,10 +131,11 @@ export default function App(props) {
                         >
                             <HomeIcon fontSize="large" />
                         </IconButton>
-                        <Typography variant="h6" noWrap component="div">
+                        <Typography variant="h6" noWrap component="div" sx={{ flexGrow: 1, fontSize: { xs: "1rem", sm: "1.25rem" } }}>
                             {/* {selectedExo ? selectedExo : "Cours de bases de données et exercices SQL"} */}
                             Cours et exercices SQL
                         </Typography>
+                        <Button component="a" href="https://mpi-informatique.github.io/" color="inherit" title="MPI Informatique" sx={{ ml: 1, mr: "48px", minWidth: 44, fontWeight: 700 }}>MPI</Button>
                     </Toolbar>
                 </AppBar>
 
